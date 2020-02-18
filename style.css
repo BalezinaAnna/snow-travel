@@ -1,0 +1,278 @@
+body{
+	margin: 0;
+}
+.container{
+	width: 1110px;
+	margin: 0 auto;
+}
+.header{
+	background-image: url(img/i2.jpg);
+	opacity: 0.8;
+	background-size: cover;
+    height: 600px;
+}
+.header__menu ul{
+	list-style-type:none;
+	text-align: right;
+ 	padding: 40px 0 30px 0;
+ 	margin: 0;
+ 	cursor: pointer;
+}
+.header__menu__item a{
+	padding: 5px 12px; 
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;
+	outline: none;
+}
+.header__menu__item{
+	display: inline-block;
+}
+.header__menu hr{
+	opacity: 0.5;
+	border: 1px solid #A1A1A1;
+}
+.header__banner{
+	text-align: center;
+}
+.header__title{
+	padding: 100px 0;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 40px;
+    color: floralwhite;
+}
+.header__subtitle{
+	font-size: 20px;
+    opacity: 0.8;
+    text-align: center;
+    color: floralwhite;
+}
+.header__button{
+	border: 1px solid snow;
+    background: gainsboro;
+    opacity: 0.8;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 200px;
+    text-align: center;
+    margin: 50px;
+    display: inline-block;
+}
+.header__button p{
+	color: #464c4f;
+	margin: 0;
+	padding: 10px;
+}
+.turs{
+	margin-bottom: 20px;
+}
+.turs__title{
+	padding: 100px 0;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #404447;
+}
+.turs__cell__title{
+	font-size: 25px;
+    opacity: 0.8;
+    text-align: center;
+    padding: 15px;
+}
+.slider .img{
+	text-align: center;
+	line-height: 600px;
+	display: none;
+}
+.slider .img img{
+	width: 100%;
+}
+.slider .img.curry{
+	display: block;
+}
+.next{
+	position: absolute;
+    top: 50%;
+    right: -50px;
+    cursor: pointer;
+}
+.prev{
+	position: absolute;
+    top: 50%;
+    left: -50px;
+    cursor: pointer;
+}
+.slider{
+	position: relative;
+}
+.turs__cell__price{
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+}
+.education{
+	background-image: url(img/24.jpg);
+	height: 510px;
+	padding: 10px 0 50px 0;
+}
+.education__padding{
+	padding: 20px;
+}
+.education__title{
+	padding: 60px 50px;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 40px;
+    color: white;
+}
+.education__subtitle{
+	padding: 10px;
+    font-size: 20px;
+    border: 1px solid white;
+    width: 500px;
+	background: white;
+	opacity: 0.3;
+	color: black;
+    font-weight: 600;
+}
+.education__img{
+	text-align: center;
+	font-size: 40px;
+	padding: 20px;
+	cursor: pointer;
+}
+.comanda{
+	background-color: #fcfcfc;
+	padding: 50px 0px;
+}
+.comanda__title{
+	padding: 80px 0 50px 0;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #404447;
+    text-align: center;
+}
+.education__cell{
+	display: inline-block;
+	border-radius: 15px;
+	box-shadow: 0px 2px 10px #dcdcdc;
+}
+.col-6{
+	padding: 30px;
+}
+.cell__img img{
+	width: 100%;
+	max-height: 300px;
+	max-width: 230px;
+	position: absolute;
+	clip: rect(10px, 290px, 190px, 10px);
+}
+.cell__img{
+	display: inline-block;
+    width: 50%;
+    height: 300px;
+}
+.cell__text{
+	font-size: 18px;
+	padding: 15px 0;
+	display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+.comments{
+	background-color: #ededed;
+	padding: 10px 0 50px 0;
+}
+.comments__title{
+	padding: 80px 0 50px 0;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #404447;
+    text-align: center;
+}
+.review__img img{
+	max-height: 300px;
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding-top: 10px;
+}
+.comments__element{
+	padding: 10px 20px 15px;
+}
+.review{
+	border-radius: 70px;
+    box-shadow: 0px 0px 10px;
+    text-align: center;
+    background-color: #f0f5fc;
+}
+.review__subtitle{
+	padding: 5px;
+    font-weight: 500;
+}
+.review__text i{
+	display: inline-block;
+}
+.fas.fa-quote-left{
+	vertical-align: top;
+}
+.fas.fa-quote-right{
+	vertical-align: bottom;
+	padding-bottom: 10px;
+}
+.review__text p{
+	display: inline-block;
+	padding-left: 5px;
+    width: 210px;
+}
+.review__text{
+	padding-top: 10px;
+}
+.fas.fa-long-arrow-alt-left{
+	position: absolute;
+    top: 50%;
+    left: -50px;
+    cursor: pointer;
+}
+.fas.fa-long-arrow-alt-right{
+	position: absolute;
+    top: 50%;
+    right: -50px;
+    cursor: pointer;
+}
+.contact{
+	background-image: url(img/23.jpg);
+	opacity: 0.8;
+	background-size: cover;
+}
+.contact__title{
+	padding: 80px 0 50px 0;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #000;
+    text-align: center;
+}
+.email{
+	text-transform: uppercase;
+	color: #000;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 600;
+	cursor: pointer;
+}
+.contact{
+	height: 300px;
+}
+.contact__item{
+	display: inline-block;
+	font-size: 26px;
+    padding: 20px;
+    cursor: pointer;
+    color: #000;
+}
